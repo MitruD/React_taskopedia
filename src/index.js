@@ -8,8 +8,14 @@ root.render(<div>Hello World!</div>);
 function MainHeader() {
   return <h1>REACT COURSE</h1>;
 }
+
+const subHeaderStyle={
+  color:"blueviolet",
+  backgroundColor:"lightgray",
+};
+
 function SubHeader() {
-  return <p>This will be an exciting course.</p>;
+  return <p style={subHeaderStyle}>This will be an exciting course.</p>;
 }
 
 function Header() {
@@ -32,8 +38,10 @@ function MainBody() {
     </div>
   );
 }
+
+
 function Footer() {
-  return <p>Happy Coding!</p>;
+  return <p style = {{color:"gray", backgroundColor:"black"}}>Happy Coding!</p>;
 }
 root.render(
   <div>

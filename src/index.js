@@ -6,7 +6,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(<div>Hello World!</div>);
 
 function MainHeader() {
-  return <h1>REACT COURSE</h1>;
+  return <h1 className='text-primary'>REACT COURSE</h1>;
 }
 
 const subHeaderStyle={

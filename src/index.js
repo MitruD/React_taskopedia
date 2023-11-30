@@ -29,12 +29,16 @@ function Header() {
 }
 
 function MainBody() {
+
+  //var, let 
+const whatWeWillLearn = "React JS"
+
   return (
     <div>
-      <p>In this course, we will learn react js by building TaskOPedia!</p>
+      <p>In this course, we will learn {whatWeWillLearn} by building TaskOPedia!</p>
       <ul>
-        <li>Call Ben</li>
-        <li>Go to walmart</li>
+        <li>basic Foundation</li>
+        <li>Functional and class components</li>
       </ul>
     </div>
   );

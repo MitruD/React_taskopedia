@@ -1,5 +1,12 @@
+import logo from "./images/react.png";
+
 function MainHeader() {
-    return <h1 className="heading1">REACT COURSE</h1>;
+    return (
+        <div>
+            <img src = {logo}></img>
+            React Course - TaskoPedia
+        </div>
+    );
   }
   
   const subHeaderStyle = {
